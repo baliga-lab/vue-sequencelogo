@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'vue-sequencelogo'
-copyright = '2017, Wei-ju Wu'
+copyright = '2017, Baliga Lab, Institute for Systems Biology'
 author = 'Wei-ju Wu'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -89,7 +89,14 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'logo': 'example.png',
+    'github_user': 'baliga-lab',
+    'github_repo': 'vue-sequencelogo',
+    'github_banner': True,
+    'logo_name': True,
+    'description': 'Simple motif logos for your web site using vue.js'
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
